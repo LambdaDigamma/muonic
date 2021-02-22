@@ -21,7 +21,7 @@ import FigureCanvasQTAgg as FigureCanvas
 
 # import the NavigationToolbar Qt4Agg widget
 from matplotlib.backends.backend_qt4agg \
-import NavigationToolbar2QTAgg as NavigationToolbar
+import NavigationToolbar2QT as NavigationToolbar
 
 class MuonicPlotCanvas(FigureCanvas):
     """

@@ -15,7 +15,7 @@ from ..analysis.fit import main as fit
 from ..analysis.fit import gaussian_fit
 from ..analysis.PulseAnalyzer import VelocityTrigger,DecayTriggerThorough
 from matplotlib.backends.backend_qt4agg \
-import NavigationToolbar2QTAgg as NavigationToolbar
+import NavigationToolbar2QT as NavigationToolbar
 
 import datetime
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install curl -y
+
 echo "Installing Python 2 and pip2."
 
 sudo apt install python2 -y
@@ -50,11 +52,9 @@ echo "Successfully created muonic_data directory."
 
 echo "Setup muonic."
 sudo mv bin/muonic muonic.py
-echo "Successfully setuo muonic."
+echo "Successfully setup muonic."
 
 echo "1. Reboot your system so that tty and dialout permissions are reloaded."
-echo "2. You can start muonic by entering"
+echo "2. You can start muonic by entering:"
 echo ""
-echo "python2 muonic.py"
-
-# sudo python setup.py install
+echo "$ python2 muonic.py [OPTIONS] xy"
